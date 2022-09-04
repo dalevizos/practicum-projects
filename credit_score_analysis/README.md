@@ -19,4 +19,4 @@
 
 
 # Libraries
-- pandas, numpy
+- pandas
