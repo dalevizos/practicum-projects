@@ -6,8 +6,7 @@
 
 
 # Goal
-- Examining counts within each transmission category by age group using a pivot table
-
+- Analyzing how much transmission has occurred in a small town and the current state of exposed individuals from the mosquito species Aedes aegypti by age group using a pivot table
 
 # Libraries
 - pandas
