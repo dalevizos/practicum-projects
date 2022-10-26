@@ -1,18 +1,14 @@
 
 # Data
-The users table (data on users):
-- price
-- model_year
-- model
-- condition
-- cylinders
-- fuel (gas, diesel, etc.)
-- odometer (the vehicle's mileage when the ad was published)
-- transmission
-- paint_color
-- is_4wd (whether the vehicle has 4-wheel drive - Boolean type)
-- date_posted (the date the ad was published)
-- days_listed (from publication to removal)
+## The users table (data on users):
+- user_id — unique user identifier
+- first_name — user's name
+- last_name — user's last name
+- age — user's age (years)
+- reg_date — subscription date (dd, mm, yy)
+- churn_date — the date the user stopped using the service (if the value is missing, the calling plan was being used when this database was extracted)
+- city — user's city of residence
+- plan — calling plan name
 
 
 # Goal
