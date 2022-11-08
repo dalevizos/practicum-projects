@@ -1,21 +1,19 @@
 # Data
-- children: the number of children in the family
-- days_employed: how long the customer has been working
-- dob_years: the customer’s age
-- education: the customer’s education level
-- education_id: identifier for the customer’s education
-- family_status: the customer’s marital status
-- family_status_id: identifier for the customer’s marital status
-- gender: the customer’s gender
-- income_type: the customer’s income type
-- debt: whether the customer has ever defaulted on a loan
-- total_income: monthly income
-- purpose: reason for taking out a loan
+- Name
+- Platform
+- Year_of_Release
+- Genre
+- NA_sales (North American sales in USD million)
+- EU_sales (sales in Europe in USD million)
+- JP_sales (sales in Japan in USD million)
+- Other_sales (sales in other countries in USD million)
+- Critic_Score (maximum of 100)
+- User_Score (maximum of 10)
+- Rating (ESRB)
 
 
 # Goal
-- Utilizing different metrics to determine the likelihood that a customer defaults on a loan
-
+- Identifying patterns that determine a game's success, creating a user profile for each target market, and conducting hypothesis testing
 
 # Libraries
-- pandas
+- pandas, matplotlib, scipy, numpy, nltk
